@@ -1,0 +1,22 @@
+{
+  "name": "Blink",
+  "version": "0.1.0",
+  "summary": "A short description of Blink.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fengxueshi6666@icloud.com/Blink",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fengxueshi6666@icloud.com": "335629146@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/fengxueshi6666@icloud.com/Blink.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Blink/Classes/**/*"
+}
