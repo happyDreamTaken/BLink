@@ -22,7 +22,7 @@ pod 'Blink'
 
 ## Author
 
-fengxueshi6666@icloud.com, 335629146@qq.com
+fengxueshi6666@icloud.com
 
 ## License
 
