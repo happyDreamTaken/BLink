@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Blink'
-  s.version          = '0.0.2'
+  s.version          = '0.0.4'
   s.summary          = 'Blink is a test for swift personal app'
 
 # This description is used to generate tags and improve search results.
@@ -18,13 +18,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-                 Atest with Blink wanna to search my pod
+                 Atest with Blink wanna to search my pod, can we
                DESC
 
   s.homepage         = 'https://github.com/happyDreamTaken'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'fengxueshi6666@icloud.com' => '335629146@qq.com' }
+  s.author           = { 'fengxueshi' => 'fengxueshi6666@icloud.com' }
   s.source           = { :git => 'https://github.com/fengxueshi6666@icloud.com/Blink.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
