@@ -18,11 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                     In my first swift5.0 , I need do test a lot of widgets ; so , t should create a podsepec to manager these widgets ;
-                       DESC
+                 Atest with Blink wanna to search my pod
+               DESC
 
-  s.homepage         = 'https://github.com/fengxueshi6666@icloud.com/Blink'
+  s.homepage         = 'https://github.com/happyDreamTaken'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fengxueshi6666@icloud.com' => '335629146@qq.com' }
