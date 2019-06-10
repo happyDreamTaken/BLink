@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Blink/Classes/**/*'
+  s.source_files = 'FSSwiftLink/Classes/**/*'
   s.swift_version = '4.0' 
   # s.resource_bundles = {
   #   'FSSwiftLink' => ['Blink/Assets/*.png']
