@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint Blink.podspec' to ensure this is a
+# Be sure to run `pod lib lint FSSwiftLink.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'Blink'
+  s.name             = 'FSSwiftLink'
   s.version          = '0.0.7'
   s.summary          = 'Blink is a test for swift personal app'
 
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Blink/Classes/**/*'
   s.swift_version = '4.0' 
   # s.resource_bundles = {
-  #   'Blink' => ['Blink/Assets/*.png']
+  #   'FSSwiftLink' => ['Blink/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
