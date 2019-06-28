@@ -13,7 +13,7 @@ extension UIView {
     
     //基础类扩展
     // MARK: - 尺寸相关
-    var x:CGFloat{
+   public var x:CGFloat{
         get{
             return self.frame.origin.x
         } set{
@@ -21,7 +21,7 @@ extension UIView {
         }
     }
     
-    var y:CGFloat{
+   public var y:CGFloat{
         get{
             return self.frame.origin.y
         }set{
@@ -29,7 +29,7 @@ extension UIView {
         }
     }
     
-    var width:CGFloat{
+   public var width:CGFloat{
         get{
             return self.frame.size.width
         }set{
@@ -37,7 +37,7 @@ extension UIView {
         }
     }
     
-    var height:CGFloat{
+   public var height:CGFloat{
         get{
             return self.frame.size.height
         }set{
@@ -45,21 +45,21 @@ extension UIView {
         }
     }
     
-    var size:CGSize{
+   public var size:CGSize{
         get{
             return self.frame.size
         }set{
             self.frame.size = newValue
         }
     }
-    var centerX:CGFloat{
+   public var centerX:CGFloat{
         get{
             return self.center.x
         }set{
             self.centerX = newValue
         }
     }
-    var centerY:CGFloat{
+   public var centerY:CGFloat{
         get{
             return self.center.y
         }set{
@@ -68,12 +68,12 @@ extension UIView {
     }
     // MARK: - 尺寸裁剪相关
     /// 添加圆角  radius: 圆角半径
-    func addRounded(radius:CGFloat) {
+   public func addRounded(radius:CGFloat) {
         self.layer.cornerRadius = radius
         self.layer.masksToBounds = true
     }
     /// 添加部分圆角(有问题右边且不了) corners: 需要实现为圆角的角，可传入多个 radius: 圆角半径
-    func addRounded(radius:CGFloat, corners: UIRectCorner) {
+   public func addRounded(radius:CGFloat, corners: UIRectCorner) {
         let maskPath = UIBezierPath.init(roundedRect: self.bounds, byRoundingCorners: corners, cornerRadii: CGSize.init(width: radius, height: radius))
         let maskLayer = CAShapeLayer()
         maskLayer.frame = self.bounds
@@ -83,17 +83,17 @@ extension UIView {
     
     // MARK: - 添加边框
     /// 添加边框 width: 边框宽度 默认黑色
-    func addBorder(width : CGFloat) { // 黑框
+   public func addBorder(width : CGFloat) { // 黑框
         self.layer.borderWidth = width;
         self.layer.borderColor = UIColor.black.cgColor;
     }
     /// 添加边框 width: 边框宽度 borderColor:边框颜色
-    func addBorder(width : CGFloat, borderColor : UIColor) { // 颜色自己给
+   public func addBorder(width : CGFloat, borderColor : UIColor) { // 颜色自己给
         self.layer.borderWidth = width;
         self.layer.borderColor = borderColor.cgColor;
     }
     // 添加圆角和阴影
-    func addRoundedOrShadow(radius:CGFloat)  {
+   public func addRoundedOrShadow(radius:CGFloat)  {
         self.layer.cornerRadius = radius
         self.layer.shadowColor = UIColor.black.cgColor
         self.layer.shadowOpacity = 0.1 // 不透明度
@@ -104,7 +104,7 @@ extension UIView {
     
     
     //获取控制器
-     func viewController()->UIViewController? {
+    public func viewController()->UIViewController? {
         
         var nextResponder: UIResponder? = self
         
