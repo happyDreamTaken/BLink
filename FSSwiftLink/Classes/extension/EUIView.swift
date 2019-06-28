@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-extension UIView {
+open extension UIView {
     
     //基础类扩展
     // MARK: - 尺寸相关

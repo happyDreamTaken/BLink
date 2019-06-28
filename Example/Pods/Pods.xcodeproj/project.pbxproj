@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		019F02AA2E6CB752A65444A5533E6A9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		2A5259CB717234529EBBFE8002A8252C /* Pods-Blink_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F1139CDF01E65B42380CCD88BFDC51C /* Pods-Blink_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D56F3BD8E7414F6C85A84C3D2289162 /* FSSwiftLink-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3530164AC15B90CC7B976035178DA82 /* FSSwiftLink-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9DE85429FEBA02345C4D1910C8DCD85B /* FSBaseTableview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E295A8CCC5C1F9964D77F4840278E0 /* FSBaseTableview.swift */; };
-		A485D1B329343A701806C3A23CECF84B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D345639A7B0B1C45D9E5B8D7F38EFDE5 /* Pods-Blink_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C3C0006930508E4C10DC1D4120BB82 /* Pods-Blink_Example-dummy.m */; };
-		EE9D90F9513621D9B95ACE2A4A687A54 /* FSSwiftLink-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D884005F5C183B23483707DC41E91B8F /* FSSwiftLink-dummy.m */; };
+		351C8A17A9746B43B1C17360D18DDA69 /* Pods-Blink_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C3C0006930508E4C10DC1D4120BB82 /* Pods-Blink_Example-dummy.m */; };
+		45F6CE0CB7536BC7232D6A7C3555EF69 /* FSSwiftLink-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D884005F5C183B23483707DC41E91B8F /* FSSwiftLink-dummy.m */; };
+		652AB53F38FC89767C47C4AFDE9ED5EE /* FSBaseTableview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E295A8CCC5C1F9964D77F4840278E0 /* FSBaseTableview.swift */; };
+		764861F52B5D64D922B24A4EFF8C0499 /* FSSwiftLink-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3530164AC15B90CC7B976035178DA82 /* FSSwiftLink-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC18E4B3C8FDE2E06C7E687F62F94FFB /* Pods-Blink_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F1139CDF01E65B42380CCD88BFDC51C /* Pods-Blink_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E97560045C2DB7EBAB3B81C7C0A18243 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FCC957BDB87D059F16087C13D817FC80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AAC7A933903591F17C86FA96F6FA7436 /* PBXContainerItemProxy */ = {
+		8E44D33354B9CD249D720AD12574BB55 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -38,31 +38,31 @@
 		4F1139CDF01E65B42380CCD88BFDC51C /* Pods-Blink_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Blink_Example-umbrella.h"; sourceTree = "<group>"; };
 		55E295A8CCC5C1F9964D77F4840278E0 /* FSBaseTableview.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSBaseTableview.swift; path = FSSwiftLink/Classes/FSBaseTableview.swift; sourceTree = "<group>"; };
 		6327D8FC5D3B85D7D8405D460CD0ADA1 /* Pods-Blink_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Blink_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7913DC2B24C91EE8E2F066744A0DAD5A /* Pods_Blink_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Blink_Example.framework; path = "Pods-Blink_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A64F4CC53843207008C0BEA71F6CB138 /* FSSwiftLink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FSSwiftLink.framework; path = FSSwiftLink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E3A2E6C1E4AE9A461733C19FEF9237 /* Pods-Blink_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Blink_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B3530164AC15B90CC7B976035178DA82 /* FSSwiftLink-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSSwiftLink-umbrella.h"; sourceTree = "<group>"; };
 		B370246B52623A81DE99343AB8474A7C /* FSSwiftLink-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSSwiftLink-prefix.pch"; sourceTree = "<group>"; };
 		BB62C9605F3AD8B52CF4FAC55640C2E7 /* Pods-Blink_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Blink_Example-Info.plist"; sourceTree = "<group>"; };
-		BF57B6EA55A9A390C3D4E999B50E3913 /* Pods_Blink_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Blink_Example.framework; path = "Pods-Blink_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D884005F5C183B23483707DC41E91B8F /* FSSwiftLink-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSSwiftLink-dummy.m"; sourceTree = "<group>"; };
-		EEE4BAC11CC3C130AAD667B594B23B02 /* FSSwiftLink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FSSwiftLink.framework; path = FSSwiftLink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F23B9781725BE0605AE2ED0AADAC32B4 /* Pods-Blink_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Blink_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6D2F3C3CEBAE30CE2D8FD76E4D5DEF95 /* Frameworks */ = {
+		A1755A3AFE2A4DCD887430F6922CD1FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				019F02AA2E6CB752A65444A5533E6A9E /* Foundation.framework in Frameworks */,
+				E97560045C2DB7EBAB3B81C7C0A18243 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9743900648311960A5ACDF68916AF1AF /* Frameworks */ = {
+		D61003D2F47CAA5CA3FD1650394CB1D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A485D1B329343A701806C3A23CECF84B /* Foundation.framework in Frameworks */,
+				FCC957BDB87D059F16087C13D817FC80 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,8 +72,8 @@
 		13C92A16E7EAFC3B6D4A12F6EEC5A7AC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EEE4BAC11CC3C130AAD667B594B23B02 /* FSSwiftLink.framework */,
-				BF57B6EA55A9A390C3D4E999B50E3913 /* Pods_Blink_Example.framework */,
+				A64F4CC53843207008C0BEA71F6CB138 /* FSSwiftLink.framework */,
+				7913DC2B24C91EE8E2F066744A0DAD5A /* Pods_Blink_Example.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -165,19 +165,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0572601F72556811B00717208CB23D9B /* Headers */ = {
+		B0F3B7F7156A13D0622756764BDE71A6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D56F3BD8E7414F6C85A84C3D2289162 /* FSSwiftLink-umbrella.h in Headers */,
+				AC18E4B3C8FDE2E06C7E687F62F94FFB /* Pods-Blink_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C02BCAC5FE335BB52117FF0DE9492AC3 /* Headers */ = {
+		E1BE765F5486C8692B0FE53286AD7E9D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A5259CB717234529EBBFE8002A8252C /* Pods-Blink_Example-umbrella.h in Headers */,
+				764861F52B5D64D922B24A4EFF8C0499 /* FSSwiftLink-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,31 +186,31 @@
 /* Begin PBXNativeTarget section */
 		4FA7E19831488628EDD28B2FC11C49EC /* Pods-Blink_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A4E1DA80C8B75EE33E8780A6431C98C /* Build configuration list for PBXNativeTarget "Pods-Blink_Example" */;
+			buildConfigurationList = C42BAC7C071F015E8F88E14482F07AF5 /* Build configuration list for PBXNativeTarget "Pods-Blink_Example" */;
 			buildPhases = (
-				C02BCAC5FE335BB52117FF0DE9492AC3 /* Headers */,
-				76A258AFFC28B0A74E27D35700D713EE /* Sources */,
-				9743900648311960A5ACDF68916AF1AF /* Frameworks */,
-				CE9EABCEDBFD8BAD78C8CCA9BFE27A87 /* Resources */,
+				B0F3B7F7156A13D0622756764BDE71A6 /* Headers */,
+				7435ED4D5934644A26C64B756BA6F7E6 /* Sources */,
+				A1755A3AFE2A4DCD887430F6922CD1FC /* Frameworks */,
+				702BACD2E304869D3BEC735DD829742F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4422BB6C8FFCE8383DE9EEA1C26B24A1 /* PBXTargetDependency */,
+				D9D68672A4D69BF165BBB49BB4CEB425 /* PBXTargetDependency */,
 			);
 			name = "Pods-Blink_Example";
 			productName = "Pods-Blink_Example";
-			productReference = BF57B6EA55A9A390C3D4E999B50E3913 /* Pods_Blink_Example.framework */;
+			productReference = 7913DC2B24C91EE8E2F066744A0DAD5A /* Pods_Blink_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BC46D5674777BB0E08EF09A6677651DA /* FSSwiftLink */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F99190AD03B6D96D0B33EC14996B9106 /* Build configuration list for PBXNativeTarget "FSSwiftLink" */;
+			buildConfigurationList = 78F27A3CF06482D5E8600E3ECE813297 /* Build configuration list for PBXNativeTarget "FSSwiftLink" */;
 			buildPhases = (
-				0572601F72556811B00717208CB23D9B /* Headers */,
-				1AF651A244238370E6682AA53FE43DEF /* Sources */,
-				6D2F3C3CEBAE30CE2D8FD76E4D5DEF95 /* Frameworks */,
-				03648CC93393EF9683A7B48F56F98087 /* Resources */,
+				E1BE765F5486C8692B0FE53286AD7E9D /* Headers */,
+				4B024D5C6CA9194455D2C30FEB833A85 /* Sources */,
+				D61003D2F47CAA5CA3FD1650394CB1D7 /* Frameworks */,
+				030B027E52376CF23B78918EC82BF68D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -218,7 +218,7 @@
 			);
 			name = FSSwiftLink;
 			productName = FSSwiftLink;
-			productReference = EEE4BAC11CC3C130AAD667B594B23B02 /* FSSwiftLink.framework */;
+			productReference = A64F4CC53843207008C0BEA71F6CB138 /* FSSwiftLink.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -227,8 +227,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -249,14 +249,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		03648CC93393EF9683A7B48F56F98087 /* Resources */ = {
+		030B027E52376CF23B78918EC82BF68D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE9EABCEDBFD8BAD78C8CCA9BFE27A87 /* Resources */ = {
+		702BACD2E304869D3BEC735DD829742F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -266,40 +266,39 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1AF651A244238370E6682AA53FE43DEF /* Sources */ = {
+		4B024D5C6CA9194455D2C30FEB833A85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DE85429FEBA02345C4D1910C8DCD85B /* FSBaseTableview.swift in Sources */,
-				EE9D90F9513621D9B95ACE2A4A687A54 /* FSSwiftLink-dummy.m in Sources */,
+				652AB53F38FC89767C47C4AFDE9ED5EE /* FSBaseTableview.swift in Sources */,
+				45F6CE0CB7536BC7232D6A7C3555EF69 /* FSSwiftLink-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76A258AFFC28B0A74E27D35700D713EE /* Sources */ = {
+		7435ED4D5934644A26C64B756BA6F7E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D345639A7B0B1C45D9E5B8D7F38EFDE5 /* Pods-Blink_Example-dummy.m in Sources */,
+				351C8A17A9746B43B1C17360D18DDA69 /* Pods-Blink_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4422BB6C8FFCE8383DE9EEA1C26B24A1 /* PBXTargetDependency */ = {
+		D9D68672A4D69BF165BBB49BB4CEB425 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FSSwiftLink;
 			target = BC46D5674777BB0E08EF09A6677651DA /* FSSwiftLink */;
-			targetProxy = AAC7A933903591F17C86FA96F6FA7436 /* PBXContainerItemProxy */;
+			targetProxy = 8E44D33354B9CD249D720AD12574BB55 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0001A738EA5694948FC9BD135006469B /* Release */ = {
+		03F807737B84E4176B5DD493F6697C0A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6E3A2E6C1E4AE9A461733C19FEF9237 /* Pods-Blink_Example.release.xcconfig */;
+			baseConfigurationReference = 01255BC37E1AF87DCFCFF32744A64B3A /* FSSwiftLink.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -309,19 +308,49 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Blink_Example/Pods-Blink_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FSSwiftLink/FSSwiftLink-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSSwiftLink/FSSwiftLink-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Blink_Example/Pods-Blink_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/FSSwiftLink/FSSwiftLink.modulemap";
+				PRODUCT_MODULE_NAME = FSSwiftLink;
+				PRODUCT_NAME = FSSwiftLink;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		763A468BF28DF1090EFD15113234FFE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01255BC37E1AF87DCFCFF32744A64B3A /* FSSwiftLink.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FSSwiftLink/FSSwiftLink-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSSwiftLink/FSSwiftLink-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FSSwiftLink/FSSwiftLink.modulemap";
+				PRODUCT_MODULE_NAME = FSSwiftLink;
+				PRODUCT_NAME = FSSwiftLink;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -329,7 +358,7 @@
 			};
 			name = Release;
 		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -377,7 +406,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -389,7 +418,7 @@
 			};
 			name = Release;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -440,7 +469,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -453,38 +482,7 @@
 			};
 			name = Debug;
 		};
-		C4467D17799F30E5B9228CEEB7F8613F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01255BC37E1AF87DCFCFF32744A64B3A /* FSSwiftLink.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FSSwiftLink/FSSwiftLink-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FSSwiftLink/FSSwiftLink-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FSSwiftLink/FSSwiftLink.modulemap";
-				PRODUCT_MODULE_NAME = FSSwiftLink;
-				PRODUCT_NAME = FSSwiftLink;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E90E5B9029AA5AB4C714D31BF200E96D /* Debug */ = {
+		AFA225048DE813832C393FADC18947F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1632367FAA38A40FD142D61C8E0B93D0 /* Pods-Blink_Example.debug.xcconfig */;
 			buildSettings = {
@@ -500,7 +498,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Blink_Example/Pods-Blink_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Blink_Example/Pods-Blink_Example.modulemap";
@@ -517,10 +515,11 @@
 			};
 			name = Debug;
 		};
-		F8E9AC5F175D82B22E1AE12A0CBE7E0D /* Release */ = {
+		C7457C6926FB850A14307A7952F1AEEA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01255BC37E1AF87DCFCFF32744A64B3A /* FSSwiftLink.xcconfig */;
+			baseConfigurationReference = A6E3A2E6C1E4AE9A461733C19FEF9237 /* Pods-Blink_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -530,18 +529,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FSSwiftLink/FSSwiftLink-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FSSwiftLink/FSSwiftLink-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Blink_Example/Pods-Blink_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FSSwiftLink/FSSwiftLink.modulemap";
-				PRODUCT_MODULE_NAME = FSSwiftLink;
-				PRODUCT_NAME = FSSwiftLink;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Blink_Example/Pods-Blink_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -555,26 +555,26 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A4E1DA80C8B75EE33E8780A6431C98C /* Build configuration list for PBXNativeTarget "Pods-Blink_Example" */ = {
+		78F27A3CF06482D5E8600E3ECE813297 /* Build configuration list for PBXNativeTarget "FSSwiftLink" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E90E5B9029AA5AB4C714D31BF200E96D /* Debug */,
-				0001A738EA5694948FC9BD135006469B /* Release */,
+				03F807737B84E4176B5DD493F6697C0A /* Debug */,
+				763A468BF28DF1090EFD15113234FFE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F99190AD03B6D96D0B33EC14996B9106 /* Build configuration list for PBXNativeTarget "FSSwiftLink" */ = {
+		C42BAC7C071F015E8F88E14482F07AF5 /* Build configuration list for PBXNativeTarget "Pods-Blink_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C4467D17799F30E5B9228CEEB7F8613F /* Debug */,
-				F8E9AC5F175D82B22E1AE12A0CBE7E0D /* Release */,
+				AFA225048DE813832C393FADC18947F5 /* Debug */,
+				C7457C6926FB850A14307A7952F1AEEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

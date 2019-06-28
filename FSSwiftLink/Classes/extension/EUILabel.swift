@@ -10,32 +10,32 @@ import Foundation
 import UIKit
 
 extension UILabel {
-    func sn_font(_ font: UIFont?) -> UILabel {
+   open func sn_font(_ font: UIFont?) -> UILabel {
         self.font = font
         return self
     }
     
-    func sn_textColor(_ color: UIColor?) -> UILabel {
+   open func sn_textColor(_ color: UIColor?) -> UILabel {
         self.textColor = color
         return self
     }
     
-    func sn_backgroundColor(_ backgroundColor: UIColor?) -> UILabel {
+   open func sn_backgroundColor(_ backgroundColor: UIColor?) -> UILabel {
         self.backgroundColor = backgroundColor
         return self
     }
     
-    func sn_text(_ text: String?) -> UILabel {
+   open func sn_text(_ text: String?) -> UILabel {
         self.text = text
         return self
     }
     
-    func sn_frame(_ frame: CGRect) -> UILabel {
+   open func sn_frame(_ frame: CGRect) -> UILabel {
         self.frame = frame
         return self
     }
     
-    func sn_textAlignment(_ alignment:NSTextAlignment?) -> UILabel {
+   open func sn_textAlignment(_ alignment:NSTextAlignment?) -> UILabel {
         self.textAlignment = alignment!
         return self
     }

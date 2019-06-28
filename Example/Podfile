@@ -2,6 +2,6 @@ use_frameworks!
 
 target 'Blink_Example' do
    
-   pod 'FSSwiftLink', '~> 0.0.8'
+   pod 'FSSwiftLink'
 
 end

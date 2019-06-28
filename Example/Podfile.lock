@@ -2,7 +2,7 @@ PODS:
   - FSSwiftLink (0.0.8)
 
 DEPENDENCIES:
-  - FSSwiftLink (~> 0.0.8)
+  - FSSwiftLink
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -11,6 +11,6 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   FSSwiftLink: ba07e0d578504a911d47509c10bbcc6cc2f7183e
 
-PODFILE CHECKSUM: f1f8fe3ce8a0e29d43d73f549905640ae64179ea
+PODFILE CHECKSUM: acecac530a30b9640864e38f13674b085fd69e39
 
-COCOAPODS: 1.7.0
+COCOAPODS: 1.7.2

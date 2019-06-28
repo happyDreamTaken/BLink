@@ -9,7 +9,7 @@
 import Foundation
 
 extension NSDate {
-    func getDay() ->Int {
+  open  func getDay() ->Int {
         
         let calendar = Calendar.current
         
@@ -17,14 +17,14 @@ extension NSDate {
         return day
     }
     
-    func getYear() ->Int {
+   open func getYear() ->Int {
         let calendar = Calendar.current
         
         let year = calendar.component(.year, from: self as Date)
         return year
     }
     
-    func getMoth() ->Int {
+   open func getMoth() ->Int {
         let calendar = Calendar.current
         
         let month = calendar.component(.month, from: self as Date)
@@ -32,7 +32,7 @@ extension NSDate {
         return month
     }
     
-    func formatterData() -> String {
+   open func formatterData() -> String {
         let dateFormat = DateFormatter.dateFormat(fromTemplate: "yyyy-MM-dd HH:mm:ss", options: 0, locale: Locale.current)
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = dateFormat

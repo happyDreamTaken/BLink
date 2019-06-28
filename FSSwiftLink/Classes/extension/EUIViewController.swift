@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-extension UIViewController {
+open extension UIViewController {
     func setBGColor(_ color:UIColor) {
         weak var weakSelf = self // 弱引用
         weakSelf?.view.backgroundColor = color

@@ -10,53 +10,53 @@ import Foundation
 import UIKit
 
 extension UIButton {
-    func sn_font(_ font:UIFont) -> UIButton{
+   open func sn_font(_ font:UIFont) -> UIButton{
         self.titleLabel?.font = font
         return self
     }
     
-    func sn_normalTextColor(_ color:UIColor) -> UIButton{
+   open func sn_normalTextColor(_ color:UIColor) -> UIButton{
         self.setTitleColor(color, for: .normal)
         return self
     }
     
-    func sn_selectTextColor(_ color:UIColor) -> UIButton{
+   open func sn_selectTextColor(_ color:UIColor) -> UIButton{
         self.setTitleColor(color, for: .selected)
         return self
     }
     
-    func sn_text(_ title:String) -> UIButton{
+   open func sn_text(_ title:String) -> UIButton{
         self.setTitle(title, for: .normal)
         return self
     }
     
-    func sn_layCorners(_ corners:CGFloat) -> UIButton{
+   open func sn_layCorners(_ corners:CGFloat) -> UIButton{
         self.layer.cornerRadius = corners
         self.layer.masksToBounds = true
         return self
     }
     
-    func sn_backGround(_ color:UIColor) -> UIButton {
+   open func sn_backGround(_ color:UIColor) -> UIButton {
         self.backgroundColor = color
         return self
     }
     
-    func sn_hight(_ color:UIColor) -> UIButton {
+   open func sn_hight(_ color:UIColor) -> UIButton {
         self.setTitleColor(color, for: .highlighted)
         return self
     }
     
-    func sn_normalImage(_ img:String) ->UIButton {
+   open func sn_normalImage(_ img:String) ->UIButton {
         self.setImage(UIImage.init(named: img), for: .normal)
         return self
     }
     
-    func sn_hignImg(_ img:String) -> UIButton {
+   open func sn_hignImg(_ img:String) -> UIButton {
         self.setImage(UIImage.init(named: img), for: .highlighted)
         return self
     }
     
-    func sn_selectImg(_ img:String) -> UIButton {
+   open func sn_selectImg(_ img:String) -> UIButton {
         self.setImage(UIImage.init(named: img), for: .selected)
         return self
     }

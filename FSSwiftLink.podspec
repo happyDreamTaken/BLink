@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FSSwiftLink'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Blink is a test for swift personal app'
 
 # This description is used to generate tags and improve search results.
