@@ -10,10 +10,10 @@ import Foundation
 import UIKit
 
 
-open let KStatueHeight:CGFloat = UIScreen.main.bounds.height >= 812 ? 44:20
-open let KScreenWidth = UIScreen.main.bounds.width
-open let KScreenHeight = UIScreen.main.bounds.height
-open func widthRadio(_ width:CGFloat)->CGFloat {
+public let KStatueHeight:CGFloat = UIScreen.main.bounds.height >= 812 ? 44:20
+public let KScreenWidth = UIScreen.main.bounds.width
+public let KScreenHeight = UIScreen.main.bounds.height
+public func widthRadio(_ width:CGFloat)->CGFloat {
     return width*KScreenWidth*1.00/375
 }
 
