@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 extension UIColor {
-    convenience open init(hexString:String){
+    convenience public init(hexString:String){
         //处理数值
         var cString = hexString.uppercased().trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
         
