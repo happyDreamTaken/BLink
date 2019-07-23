@@ -10,7 +10,7 @@ import UIKit
 
 open class FSNavigationController: UINavigationController {
 
-    override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
         guard let interactivePopGes = interactivePopGestureRecognizer else { return }
         guard let interactivePopView = interactivePopGes.view else { return }
@@ -34,7 +34,7 @@ open class FSNavigationController: UINavigationController {
         pan.delegate = self
     }
     
-    override func pushViewController(_ viewController: UIViewController, animated: Bool) {
+   open override func pushViewController(_ viewController: UIViewController, animated: Bool) {
         
         viewController.hidesBottomBarWhenPushed = true
         
@@ -43,7 +43,7 @@ open class FSNavigationController: UINavigationController {
 }
 
 extension FSNavigationController: UIGestureRecognizerDelegate {
-    func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool {
+    public func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool {
         if viewControllers.count <= 1 {
             return false
         }
