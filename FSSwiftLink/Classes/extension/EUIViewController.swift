@@ -10,28 +10,28 @@ import Foundation
 import UIKit
 
 extension UIViewController {
-    func setBGColor(_ color:UIColor) {
+   public func setBGColor(_ color:UIColor) {
         weak var weakSelf = self // 弱引用
         weakSelf?.view.backgroundColor = color
     }
-    func setBGColor(color:UIColor) {
+   public func setBGColor(color:UIColor) {
         weak var weakSelf = self // 弱引用
         weakSelf?.view.backgroundColor = color
     }
     
     /// 快速设置title
-    func setTitle(title:String) {
+   public func setTitle(title:String) {
         weak var weakSelf = self // 弱引用
         weakSelf?.title = title
     }
     
     // MARK: - 跳转相关
     /// 快速push到指定控制器 name:控制器名
-    func pushController(name:String) {
+   public func pushController(name:String) {
         _ = pushSetController(name: name)
     }
     
-    func pushSetController(name:String) -> UIViewController {
+   public func pushSetController(name:String) -> UIViewController {
         weak var weakSelf = self // 弱引用
         // 1.获取命名空间
         guard let clsName = Bundle.main.infoDictionary!["CFBundleExecutable"] else {
@@ -50,7 +50,7 @@ extension UIViewController {
     }
     
     /// 快速返回指定的控制器 name:要返回的控制器名 (注意:要返回的控制器必须在navigationController的子控制器数组中)
-    func popToViewController(name:String) { // 使用 self.popToViewController(name: "JYKMeViewController")
+   public func popToViewController(name:String) { // 使用 self.popToViewController(name: "JYKMeViewController")
         weak var weakSelf = self // 弱引用
         // 1.获取命名空间
         guard let clsName = Bundle.main.infoDictionary!["CFBundleExecutable"] else {
@@ -69,15 +69,15 @@ extension UIViewController {
         }
     }
     /// 快速返回根的控制器
-    func popToRootViewController() {
+   public func popToRootViewController() {
         weak var weakSelf = self // 弱引用
         weakSelf!.navigationController?.popToRootViewController(animated: true)
     }
     
-    func presentController(name:String) {
+   public func presentController(name:String) {
         _ = presentSetController(name: name)
     }
-    func presentSetController(name:String) -> UIViewController {
+   public func presentSetController(name:String) -> UIViewController {
         // 1.获取命名空间
         guard let clsName = Bundle.main.infoDictionary!["CFBundleExecutable"] else {
             return UIViewController()
@@ -96,7 +96,7 @@ extension UIViewController {
         return vc
     }
     /// 修改导航栏的背景颜色 colorHex:颜色的16进制
-    func setNavigationBarBackgroundColor(colorHex: String)  {
+   public func setNavigationBarBackgroundColor(colorHex: String)  {
        
        navigationController?.navigationBar.barTintColor = UIColor.clear
        
